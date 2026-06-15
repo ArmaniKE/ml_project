@@ -1,0 +1,63 @@
+TestCaseName: Amraoo red dupatta
+ProductName: amraoo Red Solid Dupatta
+ProductBrand: amraoo
+Gender: Women
+Price (INR): 599
+NumImages: 4
+PrimaryColor: Red
+Description: Red solid Dupatta and has a tasselled border
+
+---
+
+TestCaseName: MSC gold flats
+ProductName: MSC Women Gold-Toned Embellished One Toe Flats
+ProductBrand: MSC
+Gender: Women
+Price (INR): 679
+NumImages: 5
+PrimaryColor: Gold
+Description: A pair of gold-toned open-toed flats, has regular styling, no back strap detail. Synthetic upper, cushioned footbed, textured and patterned outsole
+
+---
+
+TestCaseName: Indian Terrain polo
+ProductName: Indian Terrain Men Navy Blue & Brown Printed Polo Collar T-shirt
+ProductBrand: Indian Terrain
+Gender: Men
+Price (INR): 764
+NumImages: 5
+PrimaryColor: Blue
+Description: Navy Blue and Brown printed T-shirt, has a polo collar, and short sleeves
+
+---
+
+TestCaseName: Ed Hardy jeans
+ProductName: Ed Hardy Blue Slim Fit Stretchable Jeans
+ProductBrand: Ed Hardy
+Gender: Men
+Price (INR): 1619
+NumImages: 5
+PrimaryColor: Blue
+Description: A pair of blue 5-pocket mid-rise stretchable jeans with crushed effect, lightly washed, has a zip fly with a button closure, a waistband with belt loops
+
+---
+
+TestCaseName: Park Avenue blazer
+ProductName: Park Avenue Men Blue Solid Slim-Fit Single-Breasted Pure Cotton Blazer
+ProductBrand: Park Avenue
+Gender: Men
+Price (INR): 2699
+NumImages: 5
+PrimaryColor: Blue
+Description: Blue solid slim-fit blazer, has a notched lapel, single-breasted with double button closures, long sleeves, three pockets, an attached lining and a vented back hem
+
+---
+
+TestCaseName: Kazo navy jeggings
+ProductName: Kazo Women Navy Blue Solid Skinny-Fit Jeggings
+ProductBrand: Kazo
+Gender: Women
+Price (INR): 895
+NumImages: 5
+PrimaryColor: Blue
+Description: Navy blue solid skinny-fit jeggings, has an elasticated waistband.

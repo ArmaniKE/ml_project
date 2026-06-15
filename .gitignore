@@ -1,32 +1,30 @@
-# Python bytecode
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environments
+# Environments
 .venv/
 venv/
 env/
 
-# Jupyter
+# Notebooks
 .ipynb_checkpoints/
 
-# IDE and OS files
+# Editor and OS
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
 
-# Logs and temporary files
+# Local files
 *.log
 *.tmp
 *.temp
-
-# Local environment files
 .env
 .env.*
 
-# Generated ML artifacts
+# Outputs
 artifacts/
 reports/
 models/

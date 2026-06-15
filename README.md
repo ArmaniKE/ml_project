@@ -8,9 +8,10 @@ This project trains and compares machine learning models for predicting Myntra p
 - `src/` - data loading, feature engineering, preprocessing, model training, evaluation, reporting, and artifact utilities.
 - `app/app.py` - Streamlit app for interactive price prediction.
 - `data/raw/myntra_products_catalog.csv` - source dataset.
+- `data/test/app_test_products.txt` - small app test set with real product prices for quick validation.
 - `models/` - trained model artifacts.
 - `artifacts/preprocessor.pkl` - fitted preprocessing pipeline.
-- `reports/` - generated metrics and training report.
+- `reports/` - metrics and training report.
 - `notebooks/` - exploratory and phase-based project notebooks.
 
 ## Setup
@@ -56,6 +57,18 @@ The pipeline:
 ```
 
 The app reads the latest training report and only shows models that have matching saved artifacts. It supports both `.pkl` scikit-learn models and the `.keras` TensorFlow model.
+
+After each prediction, the app also shows a compact real-price comparison using the closest matching product group from the source dataset, including INR difference and percentage error.
+
+Use the `Test Example` dropdown to load a saved product from `data/test/app_test_products.txt`. After clicking `Predict Price`, the app compares the prediction against that product's real price.
+
+## Generate Report Plots
+
+```powershell
+.\.venv\Scripts\python.exe -m src.visualization
+```
+
+This creates report images in `imgs/`, including `eda_price_plots.png`, `log_price_by_gender.png`, `baseline_models_r2.png`, and `baseline_vs_deep_learning.png`.
 
 ## Current Results
 
